@@ -1,0 +1,121 @@
+{
+  "categorias": [
+    
+    {
+      "titulo": "brazilian books ",
+      "cor": "#84a98c",
+      "link_extra": {
+      },
+      "videos": [
+        {
+          "titulo": "Clarice Lispector - The Passion According to G.H",
+          "url": "https://www.youtube.com/watch?v=_b2YvGjTnUM"
+        },
+        {
+          "titulo": "Memórias Póstumas de Brás Cubas (Epitaph of a Small Winner) - Machado De Assis BOOK REVIEW",
+          "url": "https://www.youtube.com/watch?v=pB1ayNNrSik"
+        },
+        {
+          "titulo": "Clarice Lispector - Água Viva BOOK REVIEW",
+          "url": "https://www.youtube.com/watch?v=j5GQB8ZsWS4"
+        },
+        {
+          "titulo": "Recommendations | Brazilian Classics",
+          "url": "https://www.youtube.com/watch?v=v6GD5KRQy3k"
+        }
+      ]
+    },
+
+    {
+      "titulo": "jane austen",
+      "cor": "#b392ac",
+      "link_extra": {
+        },
+      "videos": [
+        {
+          "titulo": "Pride and Prejudice by Jane Austen | Review",
+          "url": "https://www.youtube.com/watch?v=RMoS9JslYUg"
+        },
+        {
+          "titulo": "Classic Book Review: Mansfield Park by Jane Austen",
+          "url": "https://www.youtube.com/watch?v=V-LycOX7whI"
+        },
+        {
+          "titulo": "Jane Austen Week: Northanger Abbey",
+          "url": "https://www.youtube.com/watch?v=zkdrDkvT-2s"
+        }
+      ]
+    },
+
+    {
+      "titulo": "stephen king",
+      "cor": "#ce4257",
+      "link_extra": {
+      },
+      "videos": [
+        {
+          "titulo": "EDS - Stephen King REVIEW",
+          "url": "https://www.youtube.com/watch?v=h8uSljqU88M"
+        },
+        {
+          "titulo": "it by stephen king // book review",
+          "url": "https://www.youtube.com/watch?v=Af08e0v-x_0"
+        },
+        {
+          "titulo": "THE STAND - By Stephen King REVIEW",
+          "url": "https://www.youtube.com/watch?v=2Tx4SUBDGsI"
+        },
+        {
+          "titulo": "Elevation by Stephen King BOOK REVIEW",
+          "url": "https://www.youtube.com/watch?v=wqYkD0Y3KGg"
+        }
+      ]
+    },
+
+    {
+      "titulo": "c.s lewis",
+      "cor": "#1b263b",
+      "link_extra": {
+        
+      },
+      "videos": [
+        {
+          "titulo": "Mere Christianity - C S Lewis - Book Review",
+          "url": "https://www.youtube.com/watch?v=mDXw2RTSJlA"
+        },
+        {
+          "titulo": "The Problem of Pain by C.S. Lewis | Book Discourse",
+          "url": "https://www.youtube.com/watch?v=8UdsXElspco"
+        },
+        {
+          "titulo": "Abolition of Man by CS Lewis (Summary & Review)",
+          "url": "https://www.youtube.com/watch?v=zKpOZuJgfgg"
+        },
+        {
+          "titulo": "The Screwtape Letters by C. S. Lewis | Book Review",
+          "url": "https://www.youtube.com/watch?v=q7cB8fdUdYM"
+        }
+      ]
+    },
+    {
+      "titulo": "j.r.r tolkien",
+      "cor": "#1b4332",
+      "videos": [
+        {
+          "titulo": "Tolkien 101 | Where to Start & How to Continue",
+          "url": "https://www.youtube.com/watch?v=VNckduTgHrw"
+        },
+        {
+          "titulo": "The Hobbit by J.R.R. Tolkien",
+          "url": "https://www.youtube.com/watch?v=fanU7lmAALY"
+        },
+        {
+          "titulo": "The Lord Of The Rings by J.R.R. Tolkien",
+          "url": "https://www.youtube.com/watch?v=OuKE25xxoXQ"
+        }
+      ]
+    }
+    
+    
+  ]
+}
