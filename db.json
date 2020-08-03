@@ -1,0 +1,154 @@
+{
+  "categorias": [
+    {
+      "id": 1,
+      "title": "brazilian books",
+      "color": "#84a98c",
+      "link_extra": {
+        "text": "",
+        "url": "#"
+      }
+    },
+    {
+      "id": 2,
+      "title": "jane austen",
+      "color": "#b392ac",
+      "link_extra": {
+        "text": "",
+        "url": "#"
+      }
+    },
+    {
+      "id": 3,
+      "title": "stephen king",
+      "color": "#ce4257",
+      "link_extra": {
+        "text": "",
+        "url": "#"
+      }
+    },
+    {
+      "id": 4,
+      "title": "c.s lewis",
+      "color": "#1b263b",
+      "link_extra": {
+        "text": "",
+        "url": "#"
+      }
+    },
+    {
+      "id": 5,
+      "title": "j.r.r tolkien",
+      "color": "#1b4332",
+      "link_extra": {
+        "text": "",
+        "url": "#"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "title": "Clarice Lispector",
+      "description": "Aqui você pode conhecer um pouco dos meus gostos pessoais! Um pouco de músicas, filmes, séries e jogos! Projeto realizado durante a semana de Imersão React na Alura.",
+      "url": "https://www.youtube.com/watch?v=_b2YvGjTnUM"
+    },
+    {
+      "id": 2,
+      "categoriaId": 1,
+      "title": "Clarice Lispector",
+      "url": "https://www.youtube.com/watch?v=pB1ayNNrSik"
+    },
+    {
+      "id": 3,
+      "categoriaId": 1,
+      "title": "Memórias Póstumas de Brás Cubas",
+      "url": "https://www.youtube.com/watch?v=j5GQB8ZsWS4"
+    },
+    {
+      "id": 4,
+      "categoriaId": 1,
+      "title": "Clarice Lispector - Água Viva BOOK REVIEW",
+      "url": "https://www.youtube.com/watch?v=v6GD5KRQy3k"
+    },
+    {
+      "id": 5,
+      "categoriaId": 1,
+      "title": "Recommendations | Brazilian Classics",
+      "url": "https://www.youtube.com/watch?v=mmpfEoyRG9c"
+    },
+    {
+      "id": 6,
+      "categoriaId": 2,
+      "title": "Gladiador, trailer legendado",
+      "url": "https://www.youtube.com/watch?v=2ExwBe4msUw"
+    },
+    {
+      "id": 7,
+      "categoriaId": 2,
+      "title": "Interestelar, trailer oficial",
+      "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+    },
+    {
+      "id": 8,
+      "categoriaId": 2,
+      "title": "Estrada para a Glória, trailer legendado",
+      "url": "https://www.youtube.com/watch?v=uEd69QSBI0s"
+    },
+    {
+      "id": 9,
+      "categoriaId": 2,
+      "title": "Hardball - O Jogo da Vida, trailer legendado",
+      "url": "https://www.youtube.com/watch?v=gW6WPulcnE0"
+    },
+    {
+      "id": 10,
+      "categoriaId": 3,
+      "title": "Breaking Bad, trailer oficial",
+      "url": "https://www.youtube.com/watch?v=HhesaQXLuRY"
+    },
+    {
+      "id": 11,
+      "categoriaId": 3,
+      "title": "Game of Thrones, trailer oficial",
+      "url": "https://www.youtube.com/watch?v=gcTkNV5Vg1E"
+    },
+    {
+      "id": 12,
+      "categoriaId": 3,
+      "title": "Dark, trailer legendado",
+      "url": "https://www.youtube.com/watch?v=6EhDKaWLJgg"
+    },
+    {
+      "id": 13,
+      "categoriaId": 3,
+      "title": "Sherlock, trailer legendado",
+      "url": "https://www.youtube.com/watch?v=Orkng7s-GtA"
+    },
+    {
+      "id": 14,
+      "categoriaId": 4,
+      "title": "Rogue Legacy",
+      "url": "https://www.youtube.com/watch?v=f53HME2OuI0"
+    },
+    {
+      "id": 15,
+      "categoriaId": 4,
+      "title": "Final Fantasy Tactics",
+      "url": "https://www.youtube.com/watch?v=tfPbKVvyWk4"
+    },
+    {
+      "id": 16,
+      "categoriaId": 4,
+      "title": "The Witcher 3: Wild Hunt",
+      "url": "https://www.youtube.com/watch?v=XHrskkHf958"
+    },
+    {
+      "id": 17,
+      "categoriaId": 4,
+      "title": "FIFA",
+      "url": "https://www.youtube.com/watch?v=vgQNOIhRsV4"
+    }
+  ]
+}

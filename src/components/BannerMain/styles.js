@@ -1,75 +1,10 @@
 import styled from 'styled-components';
 
-export const ContentAreaContainer = styled.section`
-  margin-left: 5%;
-  margin-right: 5%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  z-index: 10;
-  @media (max-width: 800px) {
-    padding-top: 100px;
-    flex-direction: column;
-  }
-`;
-
-ContentAreaContainer.Item = styled.div`
-  width: 50%;
-  display: inline-block;
-  margin-bottom: 50px;
-  @media (max-width: 800px) {
-    width: 100%;
-  }
-`;
-
-ContentAreaContainer.Category = styled.h1`
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 60px;
-  line-height: 70px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  display: inline-block; 
-  padding: 25px;
-  line-height: 1;
-  border-radius: 4px;
-
-  @media (max-width: 800px) {
-    display: none;
-    font-size: 15px;
-    padding: 10px;
-  }
-`;
-
-ContentAreaContainer.Description = styled.p`
-  @media (max-width: 800px) {
-    display: none;
-  }
-`;
-
-ContentAreaContainer.Title = styled.h2`
-  font-style: normal;
-  font-weight: 300;
-  font-size: 40px;
-  line-height: 1;
-  margin-top: 0;
-  margin-bottom: 32px;
-
-  @media (max-width: 800px) {
-    font-size: 32px;
-    text-align: center;
-  }
-`;
-
 export const BannerMainContainer = styled.section`
   height: 80vh;
   position: relative;
   color: #fff;
-  background-image: ${({ backgroundImage }) => `url(${backgroundImage})`}; 
+  background-image: ${({ backgroundImage }) => `url(${backgroundImage})`};
   background-size: cover;
   background-position: center;
   @media (max-width: 800px) {
@@ -100,25 +35,105 @@ export const BannerMainContainer = styled.section`
   }
 `;
 
+export const ContentAreaContainer = styled.section`
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+  z-index: 10;
+
+  @media (max-width: 800px) {
+    padding-top: 100px;
+    flex-direction: column;
+  }
+`;
+
+ContentAreaContainer.Item = styled.div`
+  width: 50%;
+  display: inline-block;
+  margin-bottom: 50px;
+
+  @media (max-width: 800px) {
+    width: 100%;
+  }
+`;
+
+ContentAreaContainer.Category = styled.h1`
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 70px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  /* display: inline-block;  */
+  padding: 25px;
+  line-height: 1;
+  border-radius: 4px;
+
+  @media (max-width: 800px) {
+    display: none;
+    font-size: 18px;
+    padding: 10px;
+  }
+`;
+
+ContentAreaContainer.Description = styled.p`
+  margin-right: 4%;
+  @media (max-width: 800px) {
+    display: none;
+  }
+`;
+
+ContentAreaContainer.Title = styled.h2`
+  font-style: normal;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 1;
+  margin-top: 0;
+  margin-bottom: 32px;
+
+  @media (max-width: 800px) {
+    font-size: 32px;
+    text-align: center;
+  }
+`;
+
 export const WatchButton = styled.button`
-  font-family: 'Roboto', sans-serif;
   box-sizing: border-box;
-  cursor: pointer;
-  padding: 16px 24px;
+  outline: none;
+  border-radius: 5px;
+  border-color: var(--white);
+
+  background: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
-  outline: none;
-  border-radius: 5px;
-  text-decoration: none;
-  display: inline-block;
-  border: 1px solid transparent;
-  color: var(--black);
-  background: var(--white);
-  border-color: var(--black);
-  transition: opacity .3s;
-  display: none;
+  color: var(--white);
+
   margin: 0 auto;
+  padding: 16px 24px;
+  display: none;
+  cursor: pointer;
+  transition: opacity .3s;
+
+  &:hover,
+  &:focus {
+    opacity: .5;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
   @media (max-width: 800px) {
     display: block;
   }

@@ -1,9 +1,9 @@
 {
   "short_name": "Book:Review",
-  "name": "Book:Review Page",
+  "name": "Book:Review",
   "icons": [
     {
-      "src": "book.svg",
+      "src": "favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     }

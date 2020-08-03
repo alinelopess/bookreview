@@ -4,6 +4,12 @@
   font-family: 'Mulish', sans-serif;
 }
 
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
 :root {
   --primary: #cad2c5;
   --black: #2f3e46;
@@ -11,16 +17,31 @@
   --grayLight: #84a98c;
   --grayMedium: #e5e5e5; 
   --white: #FFFFFF;
-  --frontEnd: #6BD1FF;
-  --backEnd: #00C86F;
 }
 
-html,
+
 body {
-  margin: 0;
-  padding: 0;
+  --bodyPaddingTopWeb: 94px;
+  --bodyPaddingTopMobile: 40px;
+  padding-top: var(--bodyPaddingTopWeb);
+}
+
+#root {
+  min-height: calc(100vh - var(--bodyPaddingTopWeb));
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 800px) {
+  body {
+    padding-top: var(--bodyPaddingTopMobile);
+  }
+
+  #root {
+    min-height: calc(100vh - var(--bodyPaddingTopMobile));
+  }
 }
 
 a {
   color: inherit;
-} 
+}
